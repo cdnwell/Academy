@@ -17,7 +17,9 @@ public class RaggedArrayEx {
 		System.out.println(arr[0]);
 		//배열[i][] i의 주소가 나온다. 주소는 각 행마다 다르다.
 		
-		
+		System.out.println(arr[0].length);		//arr배열의 0행의 길이 5
+		System.out.println(arr[1].length);		//arr배열의 1행의 길이 3
+		System.out.println(arr[2].length);		//arr배열의 2행의 길이 7
 	}
 
 }
