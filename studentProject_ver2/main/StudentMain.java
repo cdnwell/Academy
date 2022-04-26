@@ -35,7 +35,6 @@ public class StudentMain {
 			
 		}
 			
-		
 	}//main
 	
 }//class StudentMain

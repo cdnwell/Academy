@@ -20,6 +20,21 @@ public class HandlerMapping {
 		case 1:
 			controller = new RegisterController();
 			break;
+		case 2:
+			controller = new SearchController();
+			break;
+		case 3:
+			controller = new UpdateController();
+			break;
+		case 4:
+			controller = new DeleteController();
+			break;
+		case 5:
+			controller = new PrintAllController();
+			break;
+		case 6:
+			controller = new TopStudentController();
+			break;
 			
 		default:
 			break;
@@ -27,5 +42,8 @@ public class HandlerMapping {
 		
 		return controller;
 	}
+	/*
+	 * search랑 비슷한 석차 1등 구하기
+	 */
 	
 }
