@@ -56,10 +56,10 @@ public class StringMain {
 		str4 = str4.trim();
 		//외우기, 중요1
 		System.out.println(str4 + " " + str4.length());
-		String str5 = String.join(" ",list);
+		String str5 = String.join(", ",list);
 		System.out.println(str5 + " " + str5.length());
 		//외우기, 중요2
-		String[] arr2= str5.split(" ");
+		String[] arr2= str5.split(", ");
 		System.out.println(Arrays.toString(arr2));
 		//외우기, 중요3
 		//trim()
